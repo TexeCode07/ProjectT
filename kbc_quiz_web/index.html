@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+    <img src="https://www.example.com/image.jpg" alt="Description of the image">
+</head>
+<body>
+
+<header class="header" >
+    <a href="#" class="logo">Quiz Game</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#" onclick="openTab('b1');">Home</a>
+        <a href="#" onclick="openTab('b2');">About</a>
+        <a href="#" onclick="openTab('b3');">Services</a>
+        <a href="#" onclick="openTab('b4');">Contact</a>
+    </nav>
+</header>
+
+<div id="b1" class="containerTab" style="display:none; margin-top: 100px;">
+    <h1>Welcome to the Ultimate Quiz Challenge!</h1>
+
+    <p>Test your knowledge with our fun and challenging quiz game!</p>
+    <p> Answer questions from various categories and see how well you score.</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none; margin-top: 100px;">
+    <h2>About</h2>
+    <p>     Welcome to Quiz Game Website, where learning meets fun!</p> 
+        Our platform is dedicated to providing engaging quizzes for users of all ages to enjoy.
+            At Quiz Game Website, our mission is to inspire curiosity, promote learning, 
+        and spark intellectual curiosity through interactive quizzes. 
+        We believe that learning should be enjoyable and accessible to everyone, 
+        and our quizzes are designed to entertain and educate users on a wide range of topics.</p>
+</div>
+
+
+<div id="b3" class="containerTab" style="display:none; margin-top: 100px;">
+    <h2>Quiz Game</h2>
+    <div class="app">
+        <!-- Start Game Button Initially Visible -->
+        <button id="start-btn" class="start-btn btn" onclick="startGame()">Start Game</button>
+        
+        <!-- Quiz Container Initially Visible -->
+        <div id="quiz-container">
+            <div id="question-container" class="hide">
+                <h2 id="question">Question Here</h2>
+                <div id="score" >Score: <span id="score-value">0</span></div>
+                <div id="timer" style="color:red" >Time:  <span id="time-value">00:00</span></div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn" onclick="checkAnswer(this)" data-correct="true">Option 1</button>
+                    <button class="btn" onclick="checkAnswer(this)" data-correct="false">Option 2</button>
+                    <button class="btn" onclick="checkAnswer(this)" data-correct="false">Option 3</button>
+                    <button class="btn" onclick="checkAnswer(this)" data-correct="false">Option 4</button>
+                </div>
+                <button id="next-btn" class="next-btn" >Next</button>
+            </div>
+           
+        </div>
+
+        <div id="final-score-container" class="hide">
+            <h2 id="final-score">Final Score: <span id="final-score-value">0</span></h2>
+            <button id="restart-btn" class="start-btn btn">Restart</button>
+        </div>
+        
+    </div>
+</div>
+
+
+<div id="b4" class="containerTab" style="display:none; margin-top: 100px;">
+    <h2>Contact</h2>
+    <p>This is the Contact Quiz Game Website.</p>
+    <p>Email Id: quizgamewebsite@gmail.com</p>
+</div>
+
+
+<script src="script.js"></script>
+<script>
+    // JavaScript function to switch tabs
+    function openTab(tabName) {
+        var i, x;
+        x = document.getElementsByClassName("containerTab");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+    }
+   
+    // Open home page by default when the website is loaded
+    window.onload = function() {
+        openTab('b1');
+    };
+</script>
+
+</body>
+</html>
