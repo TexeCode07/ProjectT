@@ -13,4 +13,5 @@ just some random project
 • hpdl_clock- Hpdl clock based on nano-esp serial communication.  
 • kbc_quiz_web- Basic KBC type demo site in html.
 • Neopixel_touchplate - Attiny85 Neopixel touchsensor and 2Amp charging module fixed micronuclus attiny 85 starting 8 second delay. fixed heartbeat timout of 2amp charging module with resistor 5 pattern with neopixel.Date:07-08-25  
+• soil_App- Android app in java , 7 in 1 npk soil sensor with thingspeak api cloud.   
 • yuvi_hydro- testing temp, moisture, ph sensor oled screen.  
