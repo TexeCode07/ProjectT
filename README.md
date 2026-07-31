@@ -9,6 +9,7 @@ just some random project
 • Tsim7600_toggle- Testing lilygo module  
 • esp_mp3_player- Esp32 playing mp3 stored in SD card and controlling with button and OLED display  
 • firebase_demo- Sending data in firebaseDB demo  
+• hpdl_clock- Hpdl clock based on nano-esp serial communication.  
 • kbc_quiz_web- Basic KBC type demo site in html.
 • Neopixel_touchplate - Attiny85 Neopixel touchsensor and 2Amp charging module fixed micronuclus attiny 85 starting 8 second delay. fixed heartbeat timout of 2amp charging module with resistor 5 pattern with neopixel.Date:07-08-25  
 • yuvi_hydro- testing temp, moisture, ph sensor oled screen.  
