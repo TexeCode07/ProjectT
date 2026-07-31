@@ -7,6 +7,7 @@ just some random project
 • PyranoProto- Pyranometer sensor rs485 with uno and stepper. Date:02-03-25  
 • RelayRTC- Relay ON time and OFF time inside coded and used RTC DS1307 custom pcb. -wingtrix Goa  
 • Tsim7600_toggle- Testing lilygo module  
+• danikalel- Esp based soft web controller for Knittelfeld Railway Museum 
 • esp_mp3_player- Esp32 playing mp3 stored in SD card and controlling with button and OLED display  
 • firebase_demo- Sending data in firebaseDB demo  
 • hpdl_clock- Hpdl clock based on nano-esp serial communication.  
