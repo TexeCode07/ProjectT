@@ -1,0 +1,10 @@
+screens/ui_Main.c
+screens/ui_Main2.c
+screens/ui_WifiConfig.c
+ui.c
+components/ui_comp_hook.c
+ui_helpers.c
+ui_events.c
+images/ui_img_batt_batt_0_png.c
+images/ui_img_wifi_wifi_0_png.c
+images/ui_img_setting_setting2_png.c
