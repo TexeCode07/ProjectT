@@ -1,5 +1,5 @@
 # ProjectT
-just some random project  
+Some prototype and project demo builds 
 • DwinDisplayDemo- Dwin DGUS HMI display working with dynamic list and control.  
 • EspSeedRTSPCam- RTSP stream with Xiao Seed Module xiao Seed module will stream camera with RTSP and Python script to stream show. Date:29-05-2025    
 • EspWiFiProvision- WiFi connectivity provision with web running on AP mode.  
